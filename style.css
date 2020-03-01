@@ -10,7 +10,7 @@
     }
     ul{
         position: absolute;
-        top:55%;
+        top:57%;
         left: 35%;
         transform:translate(-50%,-50%) ;
         margin: 0;
@@ -19,13 +19,13 @@
     }
     ul li{
         list-style: none;
-        letter-spacing: 20px;
+        letter-spacing: 15px;
         animation: animate 3s linear infinite;
     }
     @keyframes animate{
         0%{
             transform: translateX(-50px);
-            letter-spacing: 20px;
+            letter-spacing: 15px;
             opacity: 0;
             color: rgba(173, 36, 116, 0.815);
         }
@@ -33,12 +33,12 @@
             opacity: 1;
         }
         50%{
-            letter-spacing: -10px;
+            letter-spacing: -15px;
 
         }
         100%{
             transform: translateX(50px);
-            letter-spacing: 20px;
+            letter-spacing: 15px;
             opacity: 0;
             color: rgba(0, 132, 255, 0.692);
         }
